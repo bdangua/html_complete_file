@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,th,td{
+            border:2px solid orangered;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 15px;
+            font-size= 20px;
+        }
+        table{
+            width:100%;
+            box-shadow: 0 0 10px black;
+        }
+        #orange thead{
+            background-color: orangered;
+            color: white;
+        }
+        #orange tbody{
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h3> Simple Table </h3>
+     <Table>
+        <thead>
+              <tr>
+                  <th>1</th>
+                  <th>name</th>
+                  <th>company</th>
+                  <th>designation</th>
+              </tr>
+        </thead>
+         <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>bikram</td>
+                    <td>monorama</td>
+                    <td>hr</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>chootu</td>
+                    <td>amuul</td>
+                    <td>production</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>rajendra</td>
+                    <td>milk</td>
+                    <td>supervisor</td>
+                </tr>
+         </tbody>
+     </Table>
+
+    <!-- Table with Col Span -->
+    <h3> Table with Col Span </h3>
+    <Table>
+        <thead>
+        <tr>
+            <th>1</th>
+            <th>name</th>
+            <th colspan="2">company</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2</td>
+            <td>bikram</td>
+            <td>monorama</td>
+            <td>hr</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>chootu</td>
+            <td>amuul</td>
+            <td>production</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>rajendra</td>
+            <td>milk</td>
+            <td>supervisor</td>
+        </tr>
+        </tbody>
+    </Table>
+
+
+    <!-- Table With Row Span -->
+    <h3> Table With Row Span </h3>
+    <Table>
+        <thead>
+        <tr>
+            <th>1</th>
+            <th>name</th>
+            <th>company</th>
+            <th>designation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="3">2</td>
+            <td>bikram</td>
+            <td>monorama</td>
+            <td>hr</td>
+        </tr>
+        <tr>
+
+            <td>chootu</td>
+            <td>amuul</td>
+            <td>production</td>
+        </tr>
+        <tr>
+            <td>rajendra</td>
+            <td>milk</td>
+            <td>supervisor</td>
+        </tr>
+        </tbody>
+    </Table>
+
+
+    <!-- Custom Table with CSS -->
+    <h3> Custom Table with CSS </h3>
+    <Table id="orange">
+        <thead>
+        <tr>
+            <th>1</th>
+            <th>name</th>
+            <th>company</th>
+            <th>designation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2</td>
+            <td>bikram</td>
+            <td>monorama</td>
+            <td>hr</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>chootu</td>
+            <td>amuul</td>
+            <td>production</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>rajendra</td>
+            <td>milk</td>
+            <td>supervisor</td>
+        </tr>
+        </tbody>
+    </Table>
+
+
+</body>
+</html>

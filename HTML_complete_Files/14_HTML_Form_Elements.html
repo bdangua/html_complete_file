@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+        form{
+            background-color:lightsalmon;
+            padding: 15px;
+            width: 400px;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+     <form>
+         <label>user name</label>
+         <input type="text"><br/>
+         <label>password</label>
+         <input type="password"><br/>
+         <input type="submit" value="submit">
+         <input type="reset" value="reset">
+     </form>
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>user name</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>password</label>
+                </td>
+                <td>
+                    <input type="password">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+                <td>
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <form>
+        <label>select a technology</label>
+        <select>
+        <option value="">html</option>
+        <option value="">css</option>
+        <option value="">javascript</option>
+        <option value="">jquery</option>
+        <option value="">angular js</option>
+        <option value="">bootstrap</option>
+        </select>
+    </form>
+    <!--select box with optgroup -->
+
+    <h2>select box with optgroup</h2>
+    <form>
+        <label>select a techhology</label>
+        <select>
+            <optgroup label="course in ui">
+                <option value="">html</option>
+                <option value="">css</option>
+                <option value="">javascript</option>
+                <option value="">angular js</option>
+                <option value="">bootstrap</option>
+                <option value="">jquery</option>
+            </optgroup>
+            <optgroup label="programming language">
+                <opiton>jave</opiton>
+                <option>.net</option>
+                <option>php</option>
+            </optgroup>
+        </select>
+    </form>
+
+
+
+
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <form>
+        <label>your message</label>
+        <textarea cols="30" rows="5" maxlength="100"></textarea>
+    </form>
+    <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+    <form>
+        <label>select a technology</label>
+        <input list="tech">
+    <datalist id="tech">
+        <option value="">html</option>
+        <option value="">css</option>
+        <option value="">javascript</option>
+        <option value="">angular js</option>
+        <option value="">bootstrap</option>
+        <option value="">jquery</option>
+    </datalist>
+    </form>
+</body>
+</html>

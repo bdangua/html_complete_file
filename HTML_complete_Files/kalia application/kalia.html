@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Application for Kalia Scholarship</title>
+</head>
+<body>
+<h2>Application for Kalia Scholarship</h2>
+<form>
+<fieldset>
+<legend>A. KALIA Scholarship Details</legend>
+    <table>
+        <tr>
+            <td>1. District <span style="color:red">*</span></td>
+            <td>
+                <select name="drpDistrict" id="drpDistrict" class="inputitem form-control">
+                    <option value="0">-SELECT</option>
+                    <option value="4">ANGUL</option>
+                    <option value="5">BALASORE</option>
+                    <option value="6">BARGARH</option>
+                    <option value="7">BHADRAK</option>
+                    <option value="8">BOLANGIR</option>
+                    <option value="9">BOUDH</option>
+                    <option value="10">CUTTACK</option>
+                    <option value="11">DEOGARH</option>
+                    <option value="12">DHENKANAL</option>
+                    <option value="13">GAJAPATI</option>
+                    <option value="14">GANJAM</option>
+                    <option value="15">JAGATSINGHPUR</option>
+                    <option value="16">JAJPUR</option>
+                    <option value="17">JHARSUGUDA</option>
+                    <option value="18">KALAHANDI</option>
+                    <option value="19">KANDHAMAL</option>
+                    <option value="20">KENDRAPARA</option>
+                    <option value="21">KEONJHAR</option>
+                    <option value="22">KHURDHA</option>
+                    <option value="23">KORAPUT</option>
+                    <option value="24">MALKANGIRI</option>
+                    <option value="25">MAYURBHANJ</option>
+                    <option value="26">NAWARANGPUR</option>
+                    <option value="27">NAYAGARH</option>
+                    <option value="28">NUAPADA</option>
+                    <option value="29">PURI</option>
+                    <option value="30">RAYAGADA</option>
+                    <option value="31">SAMBALPUR</option>
+                    <option value="32">SONEPUR</option>
+                    <option value="33">SUNDERGARH</option>
+
+                </select>
+
+            </td>
+            <td>2. Course Name <span style="color:red">*</span></td>
+            <td>
+                <select name="ddlCourse" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlCourse\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlCourse" class="inputitem forn-control">
+                    <option selected="selected" value="0">-SELECT</option>
+                    <option value="1">B. Sc. (Agriculture)</option>
+                    <option value="2">B. Sc. (Community Science)</option>
+                    <option value="3">B. Sc. (Fisheries Science)</option>
+                    <option value="4">B. Sc. (Forestry)</option>
+                    <option value="5">B. Sc. (Horticulture)</option>
+                    <option value="6">B. Sc. (Nursing)</option>
+                    <option value="7">B.Tech. (Agriculture Enggineering)</option>
+                    <option value="8">B.Tech./ B.E.</option>
+                    <option value="9">Bachelor in Veterinary Sc. &amp; Animal Husbandry</option>
+                    <option value="10">Bachelor of Ayurvedic Medicine and Surgery (BAMS)</option>
+                    <option value="11">Bachelor of Dental Surgery (BDS)</option>
+                    <option value="12">Bachelor of Homeopathic Medicine and Surgery (BHMS)</option>
+                    <option value="13">ITI</option>
+                    <option value="14">Bachelor of Medicine and Bachelor of Surgery (MBBS)</option>
+                    <option value="15">Polytechnics</option>
+                    <option value="16">Bachlore of Planning (B.Plan)</option>
+                    <option value="17">Bachlore of Architecture (B.Arch)</option>
+                    <option value="18">Agri. Polytechnics</option>
+                    <option value="19">D.Pharma</option>
+                    <option value="20">DMLT</option>
+                    <option value="21">DMRT</option>
+                    <option value="22">PBBSC</option>
+                    <option value="23">GNM</option>
+                    <option value="24">ANM</option>
+                    <option value="25">Psychiatric Nursing</option>
+                    <option value="26">Opthalmic Assistant/Surgical OPTH Assistant</option>
+
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>3. Duration <span style="color:red">*</span></td>
+            <td>
+                <input type="text" value="0 years">
+            </td>
+            <td>4. Institute Name <span style="color:red">*</span></td>
+            <td>
+                <select name="ddlinstitute" id="ddlinstitute" class="inputitem" form-control>
+                    <option value="0">--select--</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>5. Roll No <span style="color:red">*</span></td>
+            <td>
+                <input type="text">
+            </td>
+            <td>6. Date of Admission <span style="color:red">*</span></td>
+            <td>
+                <select name="day" id="day" class="inputitem form-control">
+                        <option value="0">DAY</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                </select>
+                <select name="month" id="month" class="inputitem form-control">
+                    <option value="0">MONTH</option>
+                    <option value="1">JAN</option>
+                    <option value="2">FEB</option>
+                    <option value="3">MAR</option>
+                    <option value="4">APR</option>
+                    <option value="5">MAY</option>
+                    <option value="6">JUN</option>
+                    <option value="7">JUL</option>
+                    <option value="8">AUG</option>
+                    <option value="9">SEP</option>
+                    <option value="10">OCT</option>
+                    <option value="11">NOV</option>
+                    <option value="12">DEC</option>
+                </select>
+                <select name="year" id="year" class="inputitem form-control">
+                    <option value="0">YEAR</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                </select>
+            </td>
+            <td>
+                <img src="media/male-noimage.jpg" width="130px" height="135px" alt="ImgAppl">
+                <div id='imgSpan'>
+                    Click here to upload your photo</div>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>B. Applicant Details</legend>
+        <table>
+            <tr>
+                <td>1. Applicant name <span style="color:red">*</span></td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>2. Gender <span style="color:red">*</span></td>
+                <td>
+                <select name="gender" id="gender" class="inputitem form-control">
+                    <option value="0">select</option>
+                    <option value="1">male</option>
+                    <option value="2">female</option>
+                    <option value="3">transgender</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>3. Date of Birth <span style="color:red">*</span></td>
+                <td>
+                    <select name="day" id="day" class="inputitem form-control">
+                        <option value="0">DAY</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month" id="month" class="inputitem form-control">
+                        <option value="0">MONTH</option>
+                        <option value="1">JAN</option>
+                        <option value="2">FEB</option>
+                        <option value="3">MAR</option>
+                        <option value="4">APR</option>
+                        <option value="5">MAY</option>
+                        <option value="6">JUN</option>
+                        <option value="7">JUL</option>
+                        <option value="8">AUG</option>
+                        <option value="9">SEP</option>
+                        <option value="10">OCT</option>
+                        <option value="11">NOV</option>
+                        <option value="12">DEC</option>
+                    </select>
+                    <select name="year" id="year" class="inputitem form-control">
+                        <option value="0">YEAR</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                    </select>
+                </td>
+                <td>4. Category <span style="color:red">*</span></td>
+                <td>
+                    <select name="category" id="category" class="inputitem form-control">
+                        <option value="0">select</option>
+                        <option value="1">SC</option>
+                        <option value="2">ST</option>
+                        <option value="3">OBC/SEBC</option>
+                        <option value="3">GENERAL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+            <td>5. PwD</td>
+            <td>
+                <input type="checkbox" value="checkbox">
+            </td>
+            <td>6. Aadhaar Number <span style="color:red">*</span></td>
+            <td>
+                <input type="text">
+            </td>
+            </tr>
+            <tr>
+                <td>7. Mobile Number <span style="color:red">*</span></td>
+                <td>
+                    <input name="txtCMobNo" type="text" maxlength="10" id="txtCMobNo" class="inputitem form-control" autocomplete="off" />
+                </td>
+                <td>8. Alternate Mobile Number (optional)</td>
+                <td>
+                    <input name="txtAltMobileNo" type="text" maxlength="10" id="txtAltMobileNo" class="inputitem form-control" autocomplete="off" />
+                </td>
+            </tr>
+            <tr>
+                <td>9. e-Mail ID</td>
+                <td>
+                    <input name="txtCEmail" type="text" maxlength="100" id="txtCEmail" class="inputitem form-control" autocomplete="off" onblur="return checkEmail(&#39;txtCEmail&#39;);" />
+                </td>
+                <td>10. Are you staying in Hostel</td>
+                <td>
+                    <input id="rdBtnHostel_0" type="radio" name="rdBtnHostel" value="1" /><label for="rdBtnHostel_0">Yes</label></td><td><input id="rdBtnHostel_1" type="radio" name="rdBtnHostel" value="2" checked="checked" /><label for="rdBtnHostel_1">No</label>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>C. Parent Information</legend>
+        <table>
+            <tr>
+                <td></td>
+                <td>Name</td>
+                <td>Profession</td>
+                <td>Aadhaar Number</td>
+                <td>Whether KALIA Beneficiary</td>
+            </tr>
+            <tr>
+                <td>1. Father <span style="color:red">*</span></td>
+               <td>
+                   <input name="txtFatherName" type="text" maxlength="100" id="txtFatherName" class="inputitem Uppercase" autocomplete="off" style="width:200px;text-transform: uppercase" />
+               </td>
+                <td>
+                    <select name="ddlFProfession" id="ddlFProfession" class="inputitem" style="width:200px;">
+                        <option value="0">-SELECT</option>
+                        <option value="1">Small Farmer</option>
+                        <option value="3">Marginal Farmer</option>
+                        <option value="4">Landless Agricultural Labourer</option>
+                        <option value="5">Others</option>
+                    </select>
+                </td>
+                <td>
+                    <input name="txtFatherAadhar" type="text" maxlength="12" id="txtFatherAadhar" class="inputitem Uppercase" autocomplete="off" style="width:150px;" />
+                </td>
+                <td>
+                    <input id="chkFatherBenificiary" type="checkbox" name="chkFatherBenificiary" />
+                </td>
+            </tr>
+            <tr>
+                <td>2. Mother <span style="color:red">*</span></td>
+                <td>
+                    <input name="txtmotherName" type="text" maxlength="100" id="txtmotherName" class="inputitem Uppercase" autocomplete="off" style="width:200px;text-transform: uppercase" />
+                </td>
+                <td>
+                    <select name="ddlFProfession" id="ddlFProfession" class="inputitem" style="width:200px;">
+                        <option value="0">-SELECT</option>
+                        <option value="1">Small Farmer</option>
+                        <option value="3">Marginal Farmer</option>
+                        <option value="4">Landless Agricultural Labourer</option>
+                        <option value="5">Others</option>
+                    </select>
+                </td>
+                <td>
+                    <input name="txtFatherAadhar" type="text" maxlength="12" id="txtFatherAadhar" class="inputitem Uppercase" autocomplete="off" style="width:150px;" />
+                </td>
+                <td>
+                    <input id="chkFatherBenificiary" type="checkbox" name="chkFatherBenificiary" />
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>D. Permanent Address Information</legend>
+        <table>
+            <tr>
+                <td>District <span style="color:red">*</span></td>
+                <td>
+                    <select name="drpDistrict" id="drpDistrict" class="inputitem form-control">
+                        <option value="0">-SELECT</option>
+                        <option value="4">ANGUL</option>
+                        <option value="5">BALASORE</option>
+                        <option value="6">BARGARH</option>
+                        <option value="7">BHADRAK</option>
+                        <option value="8">BOLANGIR</option>
+                        <option value="9">BOUDH</option>
+                        <option value="10">CUTTACK</option>
+                        <option value="11">DEOGARH</option>
+                        <option value="12">DHENKANAL</option>
+                        <option value="13">GAJAPATI</option>
+                        <option value="14">GANJAM</option>
+                        <option value="15">JAGATSINGHPUR</option>
+                        <option value="16">JAJPUR</option>
+                        <option value="17">JHARSUGUDA</option>
+                        <option value="18">KALAHANDI</option>
+                        <option value="19">KANDHAMAL</option>
+                        <option value="20">KENDRAPARA</option>
+                        <option value="21">KEONJHAR</option>
+                        <option value="22">KHURDHA</option>
+                        <option value="23">KORAPUT</option>
+                        <option value="24">MALKANGIRI</option>
+                        <option value="25">MAYURBHANJ</option>
+                        <option value="26">NAWARANGPUR</option>
+                        <option value="27">NAYAGARH</option>
+                        <option value="28">NUAPADA</option>
+                        <option value="29">PURI</option>
+                        <option value="30">RAYAGADA</option>
+                        <option value="31">SAMBALPUR</option>
+                        <option value="32">SONEPUR</option>
+                        <option value="33">SUNDERGARH</option>
+                    </select>
+                </td>
+                <td>2. Block / ULB <span style="color:red">*</span></td>
+                <td>
+                    <select name="ddlCBlock" id="ddlCBlock" class="inputitem form-control" onchange="assignval();" style="text-transform: uppercase">
+                        <option value="0">--SELECT</option>
+                </td>
+            </tr>
+            <tr>
+                <td>3. Address <span style="color:red">*</span></td>
+                <td>
+                     <textarea name="txtCPS" rows="5" cols="20" id="txtCPS" class="inputitem Uppercase form-control" autocomplete="off" style="height:50px;text-transform: uppercase">
+</textarea>
+                </td>
+                <td>4. PIN Code </td>
+                <td>
+                    <input name="txtCPC" type="text" maxlength="6" id="txtCPC" class="inputitem form-control" autocomplete="off" />
+                </td>
+            </tr>
+            <tr>
+                <td>5. Parent Mobile No.</td>
+                <td>
+                    <input name="txtCTeleNo" type="text" maxlength="10" id="txtCTeleNo" class="inputitem form-control" placeholder="Parent Mobile No" autocomplete="off" />
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>E. Bank Information</legend>
+        <table>
+            <tr>
+                <td>1. Bank Name <span style="color:red">*</span></td>
+                <td>
+                    <select name="ddlBankName" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlBankName\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlBankName" class="inputitem form-control" style="text-transform: uppercase">
+                        <option selected="selected" value="0">-SELECT</option>
+                        <option value="1">ALLAHABAD BANK</option>
+                        <option value="2">ANDHRA BANK</option>
+                        <option value="3">ANGUL UNITED CCC</option>
+                        <option value="4">ASKA CCB</option>
+                        <option value="5">AXIS BANK</option>
+                        <option value="57">BAITARANI GRAMYA BANK</option>
+                        <option value="80">BANDHAN BANK</option>
+                        <option value="6">BANK OF BARODA</option>
+                        <option value="7">BANK OF INDIA</option>
+                        <option value="8">BANK OF MAHARASHTRA</option>
+                        <option value="9">BANKI CCB</option>
+                        <option value="63">BCCB</option>
+                        <option value="62">BDCC BANK</option>
+                        <option value="10">BERAHAMPUR CCB</option>
+                        <option value="70">BHARATIYA MAHILA BANK LIMITED</option>
+                        <option value="11">BHAWANIPATANA CCB</option>
+                        <option value="12">BOLANGIR DCCB</option>
+                        <option value="13">BOUDH CCB</option>
+                        <option value="14">CANARA BANK</option>
+                        <option value="83">CATHOLIC SYRIAN BANK LIMITED</option>
+                        <option value="61">CCB</option>
+                        <option value="15">CENTRAL BANK OF INDIA</option>
+                        <option value="74">CITI BANK</option>
+                        <option value="87">CITY UNION BANK LIMITED</option>
+                        <option value="16">CORPORATION BANK</option>
+                        <option value="17">CUTTACK DCCB</option>
+                        <option value="59">DCB BANK LIMITED</option>
+                        <option value="18">DCCB BALASORE BHADRAK</option>
+                        <option value="66">DCCB BOLANGIR</option>
+                        <option value="69">DCCB MAYURBHANJ</option>
+                        <option value="19">DENA BANK</option>
+                        <option value="20">FEDERAL BANK</option>
+                        <option value="21">HDFC BANK LTD</option>
+                        <option value="22">ICICI BANK LTD</option>
+                        <option value="23">IDBI BANK LTD</option>
+                        <option value="24">INDIAN BANK</option>
+                        <option value="25">INDIAN OVERSEAS BANK</option>
+                        <option value="26">INDUSIND BANK LIMITED</option>
+                        <option value="27">ING VYSYA BANK</option>
+                        <option value="81">JANA SMALL FINANCE BANK LTD</option>
+                        <option value="60">KALINGA GRAMYA BANK</option>
+                        <option value="28">KARNATAKA BANK</option>
+                        <option value="58">KARUR VYSYA BANK</option>
+                        <option value="73">KENDRAPARA URBAN CO-OP BANK</option>
+                        <option value="29">KEONJHAR CCB</option>
+                        <option value="30">KHURDA CENTRAL CO-OP BANK</option>
+                        <option value="31">KORAPUT CCB</option>
+                        <option value="67">KORAPUT PANCHABATI GRAMYA BANK(K.P.G.B)</option>
+                        <option value="32">KOTAK MAHINDRA BANK</option>
+                        <option value="75">LAXMI VILAS BANK</option>
+                        <option value="33">MAYURBHANJ DCCB</option>
+                        <option value="35">NAYAGARH DCCB</option>
+                        <option value="36">NEELACHAL GRAMYA&#194;&#160; BANK</option>
+                        <option value="37">ODISHA GRAMYA BANK</option>
+                        <option value="38">ORIENTAL BANK OF COMMERCE</option>
+                        <option value="39">OSCB</option>
+                        <option value="40">POST OFFICE</option>
+                        <option value="41">PUNJAB AND SIND BANK</option>
+                        <option value="42">PUNJAB NATIONAL BANK</option>
+                        <option value="84">RBL BANK LIMITED</option>
+                        <option value="85">RESERVE BANK OF INDIA, PAD</option>
+                        <option value="43">RUSHIKULYA GRAMYA BANK</option>
+                        <option value="44">SAMBALPUR DCCB</option>
+                        <option value="45">SOUTH INDIAN BANK</option>
+                        <option value="77">STANDARD CHARTERED BANK</option>
+                        <option value="71">STATE BANK OF BIKANER AND JAIPUR</option>
+                        <option value="46">STATE BANK OF HYDERABAD</option>
+                        <option value="47">STATE BANK OF INDIA</option>
+                        <option value="65">STATE BANK OF INDIA(EVENING BRANCH)</option>
+                        <option value="72">STATE BANK OF MYSORE</option>
+                        <option value="78">STATE BANK OF PATIALA</option>
+                        <option value="76">STATE BANK OF TRAVANCORE</option>
+                        <option value="48">SUNDERGARH DCCB</option>
+                        <option value="86">SURYODAY SMALL FINANCE BANK LIMITED</option>
+                        <option value="49">SYNDICATE BANK</option>
+                        <option value="88">TAMILNAD MERCANTILE BANK LIMITED</option>
+                        <option value="50">UCO BANK</option>
+                        <option value="82">Ujjivan Small Finance Bank Limited</option>
+                        <option value="51">UNION BANK OF INDIA</option>
+                        <option value="52">UNITED BANK OF INDIA</option>
+                        <option value="53">UNITED PURI NIMAPARA CCB</option>
+                        <option value="54">URBAN COOP BANK</option>
+                        <option value="55">UTKAL GRAMYA BANK</option>
+                        <option value="56">VIJAYA BANK</option>
+                        <option value="79">YES BANK</option>
+
+                    </select>
+                </td>
+                <td>2. Branch Name </td>
+                <td>
+                    <select name="ddlBrName" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlBrName\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlBrName" class="inputitem form-control" style="text-transform: uppercase">
+                        <option selected="selected" value="--Branch Name">--Branch Name</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>3. Account Number <span style="color:red">*</span></td>
+                <td>
+                    <div class="col-sm-4">
+                        <input name="txtAccountNo" type="text" maxlength="20" id="txtAccountNo" class="inputitem Uppercase form-contorl" autocomplete="off" /><br>
+
+                        <span style="color:red">(The bank account must be in the name of <b>Applicant/Student</b>)</span>
+                    </div>
+                </td>
+                <td>4. IFSC Number <span style="color:red">*</span></td>
+                <td>
+                    <div id="ifsclab" class="col-sm-4">
+                        <span id="lblIFSCCode">-</span>
+                        <br />
+                        <span style="color:red">(For online money transfer through <b>RTGS/NEFT)</b></span>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <table>
+            <tr>
+                <td>F. Undertaking</td>
+            </tr>
+            <tr>
+                <td> <input id="chkUnderTaking" type="checkbox" name="chkUnderTaking" /><label for="chkUnderTaking">My Father/Mother is receipt of KALIA Beneficiary.</label></td>
+            </tr>
+            <tr>
+                <td><input id="rdBtnListUndertaking_0" type="radio" name="rdBtnListUndertaking" value="2" checked="checked" /><label for="rdBtnListUndertaking_0">I am not a recipient of any other Scholarship scheme.</label></td>
+            </tr>
+            <tr>
+                <td>Scholarship Name <span style="color:red">*</span></td>
+                <td>
+                    <input name="txtScholarShipName" type="text" maxlength="100" id="txtScholarShipName" class="inputitem Uppercase form-contorl" placeholder="Name of scholarship">
+                </td>
+                <td>Reference Id <span style="color:red">*</span></td>
+                <td>
+                    <input name="txtReferenceId" type="text" maxlength="20" id="txtReferenceId" class="inputitem Uppercase form-contorl" placeholder="Reference ID">
+                </td>
+            </tr>
+            <tr>
+                <td align="center-right"><input type="submit" name="btnSubmit1" value="Submit" onclick="return validation();" id="btnSubmit1" class="btn btn-sm btn-success"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

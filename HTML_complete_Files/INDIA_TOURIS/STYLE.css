@@ -1,0 +1,37 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #c59b75;
+    margin: 0;
+}
+h1{
+text-align: center;
+    text-shadow: 0 0 10px black;
+}
+h2{
+    background:linear-gradient(to left,#fe35ff,chocolate,greenyellow,cadetblue ,olivedrab) ;
+    text-align: center;
+    padding: 15px;
+    box-shadow: brown;
+}
+p,td{
+    text-align: center;
+}
+image,iframe{
+    border: 5px solid white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+header,footer{
+    background: linear-gradient(to left,#463cff,#ff6bff,blanchedalmond,aqua) ;
+    box-shadow:orange;
+    padding: 15px;
+}
+table{
+    width:100%;
+    text-align: center;
+}
